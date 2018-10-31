@@ -951,14 +951,6 @@ blockquote {
 #animated-bg1-1a H1 {
   font-family: 'Source Sans Pro', sans-serif;
 }
-#footer3-1f .mbr-section-subtitle,
-#footer3-1f .mbr-section-text {
-  color: #fff;
-}
-#footer3-1f .mbr-section-subtitle {
-  margin-bottom: 20px;
-  margin-top: 0;
-}
 #form1-1i .mbr-section-subtitle {
   text-transform: uppercase;
 }
@@ -1068,18 +1060,16 @@ blockquote {
 #menu-y .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#footer3-14 .mbr-section-subtitle,
-#footer3-14 .mbr-section-text {
-  color: #fff;
-}
-#footer3-14 .mbr-section-subtitle {
-  margin-bottom: 20px;
-  margin-top: 0;
-}
 #content6-1z P {
   color: #000000;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+}
+#accordion1-2u P {
+  color: #ffffff;
+}
+#accordion1-2u H1 {
+  color: #ffffff;
 }
 #form1-17 .mbr-section-subtitle {
   text-transform: uppercase;
@@ -1199,14 +1189,6 @@ blockquote {
 #call6-24 .call-card.active .mbr-section-subtitle B {
   color: #ffffff;
 }
-#footer3-t .mbr-section-subtitle,
-#footer3-t .mbr-section-text {
-  color: #fff;
-}
-#footer3-t .mbr-section-subtitle {
-  margin-bottom: 20px;
-  margin-top: 0;
-}
 #menu-27 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1288,14 +1270,6 @@ blockquote {
 }
 #call6-29 .call-card.active .mbr-section-subtitle B {
   color: #ffffff;
-}
-#footer3-2a .mbr-section-subtitle,
-#footer3-2a .mbr-section-text {
-  color: #fff;
-}
-#footer3-2a .mbr-section-subtitle {
-  margin-bottom: 20px;
-  margin-top: 0;
 }
 #menu-2c .hide-buttons .nav-btn {
   display: none !important;
@@ -1381,12 +1355,4 @@ blockquote {
 }
 #header9-2t .mbr-section-title {
   font-size: 84px;
-}
-#footer3-2f .mbr-section-subtitle,
-#footer3-2f .mbr-section-text {
-  color: #fff;
-}
-#footer3-2f .mbr-section-subtitle {
-  margin-bottom: 20px;
-  margin-top: 0;
 }

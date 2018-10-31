@@ -30,7 +30,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 102,
+    "uniqCompNum": 103,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -197,7 +197,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html#header9-2t\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -305,12 +305,14 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/01.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ddl-blog-600x314.png",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "iconFont": {
-              "active": false,
               "class": "mbr-iconfont mbr-iconfont-features4",
               "name": "phone",
               "link": "https://mobirise.com",
@@ -322,12 +324,14 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/02.jpg",
+              "src": "@PROJECT_PATH@/assets/images/clients-1-600x288.png",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "iconFont": {
-              "active": false,
               "class": "mbr-iconfont mbr-iconfont-features4",
               "name": "edit",
               "link": "https://mobirise.com",
@@ -339,12 +343,14 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/03.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dd-loyality-yallew-3-600x324.png",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "iconFont": {
-              "active": false,
               "class": "mbr-iconfont mbr-iconfont-features4",
               "name": "briefcase",
               "link": "https://mobirise.com",
@@ -356,12 +362,14 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/04.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ddl-article-600x314.png",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "iconFont": {
-              "active": false,
               "class": "mbr-iconfont mbr-iconfont-features4",
               "name": "linegraph",
               "link": "https://mobirise.com",
@@ -748,47 +756,6 @@
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "tabs": "4",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "About us !",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseOneaccordion1-1u\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Who Are We ?</a>",
-          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseTwoaccordion1-1u\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">What is our Philosophy ?</a>",
-          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseThreeaccordion1-1u\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Why DD-Loyalty for Companies ?</a>",
-          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseFouraccordion1-1u\" aria-expanded=\"true\" aria-controls=\"collapseFour\">What &nbsp;would our CEO say toyou ?&nbsp;</a>",
-          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
-          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
-          "text1": "<p>Dual Directions LLC has been delivering results since we opened in year 2014. Our goal is to provide both a superior customer experience and tremendous value for our customers.</p><p>O<span style=\"font-size: 1rem;\">ur CEO has over than 20 years of IT Project management experience in Manufactory and Retail industry and is passionate about exceeding your expectations</span></p>",
-          "text2": "<p>The 1st of it’s kind the complete integrated loyalty system and membership system right on your phone with 11 languages. The DD-Loyalty App for Customers lets you browse companies and request membership right from the App as well as a wallet for all your plastic cards. Receive your card virtually and use the cards for the preferred branch to gain rewards points and special members offer.</p>",
-          "text3": "<p><span style=\"font-size: 1rem;\">To make you reach your clients every time, everywhere and in addition go digital. Live chat/customer service with your clients.</span><br></p>",
-          "text4": "<p><span style=\"font-size: 1rem;\">Hello and welcome to DD-Loyalty App. Whenever I remember how we started and how we got up and where we stand now I feel proud of all the successes we have achieved. At the time this company were established, we were still young and not experienced enough, although we had started from nothing but we could make great achievements and success.</span></p><p><span style=\"font-size: 1rem;\">Having made a great effort and overcome many challenges, we realized an important fact about ourselves that “We can do anything only if we really want to achieve it.”</span></p><p><span style=\"font-size: 1rem;\">Finally, I would like to share with you the secret formula of our success: “Working through scientific knowledge” because having an integrated knowledge of the scope of our work enables us to take steady steps to achieve all our aspirations and gives us the ability to overcome all the difficulties and challenges we face now and in the upcoming future.</span><br></p>",
-          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "accordion1",
-          "_anchor": "accordion1-1u"
-        },
-        {
-          "_params": {
             "showText": true
           },
           "media": {
@@ -1024,7 +991,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html#header9-2t\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1366,7 +1333,7 @@
             "ShowTexts": true,
             "paddingTop": "1",
             "paddingBottom": "0",
-            "columns": "4",
+            "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/04-1920x1280.png",
             "parallax": false,
@@ -1478,7 +1445,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html#header9-2t\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1522,6 +1489,55 @@
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-size": "14px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "tabs": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "FAQ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseOneaccordion1-1u\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Who Are We ?</a>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseTwoaccordion1-1u\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">What is our Philosophy ?</a>",
+          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseThreeaccordion1-1u\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Why DD-Loyalty for Companies ?</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1u-init\" data-core=\"\" href=\"#collapseFouraccordion1-1u\" aria-expanded=\"true\" aria-controls=\"collapseFour\">What &nbsp;would our CEO say toyou ?&nbsp;</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>Dual Directions LLC has been delivering results since we opened in year 2014. Our goal is to provide both a superior customer experience and tremendous value for our customers.</p><p>O<span style=\"font-size: 1rem;\">ur CEO has over than 20 years of IT Project management experience in Manufactory and Retail industry and is passionate about exceeding your expectations</span></p>",
+          "text2": "<p>The 1st of it’s kind the complete integrated loyalty system and membership system right on your phone with 11 languages. The DD-Loyalty App for Customers lets you browse companies and request membership right from the App as well as a wallet for all your plastic cards. Receive your card virtually and use the cards for the preferred branch to gain rewards points and special members offer.</p>",
+          "text3": "<p><span style=\"font-size: 1rem;\">To make you reach your clients every time, everywhere and in addition go digital. Live chat/customer service with your clients.</span><br></p>",
+          "text4": "<p><span style=\"font-size: 1rem;\">Hello and welcome to DD-Loyalty App. Whenever I remember how we started and how we got up and where we stand now I feel proud of all the successes we have achieved. At the time this company were established, we were still young and not experienced enough, although we had started from nothing but we could make great achievements and success.</span></p><p><span style=\"font-size: 1rem;\">Having made a great effort and overcome many challenges, we realized an important fact about ourselves that “We can do anything only if we really want to achieve it.”</span></p><p><span style=\"font-size: 1rem;\">Finally, I would like to share with you the secret formula of our success: “Working through scientific knowledge” because having an integrated knowledge of the scope of our work enables us to take steady steps to achieve all our aspirations and gives us the ability to overcome all the difficulties and challenges we face now and in the upcoming future.</span><br></p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_anchor": "accordion1-2u",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#ffffff"
             }
           }
         },
@@ -1824,7 +1840,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html#header9-2t\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2028,7 +2044,7 @@
         }
       ]
     },
-    "page4.html": {
+    "Videos.html": {
       "settings": {
         "title": "Videos",
         "meta_descr": "",
@@ -2160,7 +2176,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html#header9-2t\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2308,7 +2324,7 @@
         }
       ]
     },
-    "page5.html": {
+    "Manuals.html": {
       "settings": {
         "title": "Manuals",
         "meta_descr": "",
@@ -2386,7 +2402,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-3\">For Businesses</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"For-Loyal-Customers.html#features5-m\">For Loyal Customers</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About-Dual-Directions.html#counters2-23\">About Dual Directions&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Articals &nbsp;&amp; News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html#features5-26\">Videos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html#header9-2t\">Manuals</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact-us.html#animated-bg1-1a\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#call6-c\">Free App Download</a></li>",
           "logo": {
             "image": {
               "active": true,
