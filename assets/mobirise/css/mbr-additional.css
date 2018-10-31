@@ -954,9 +954,6 @@ blockquote {
 #form1-1i .mbr-section-subtitle {
   text-transform: uppercase;
 }
-#form1-1i .form-control-label {
-  color: undefined;
-}
 #form1-1i .mbr-section-title {
   color: #ecf0f1;
 }
@@ -1073,9 +1070,6 @@ blockquote {
 }
 #form1-17 .mbr-section-subtitle {
   text-transform: uppercase;
-}
-#form1-17 .form-control-label {
-  color: undefined;
 }
 #form1-17 .mbr-section-title {
   color: #f39c12;
