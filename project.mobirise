@@ -665,8 +665,8 @@
           "caption2": "Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.<br>",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
           "title3": "Web Fonts",
-          "subtitle3": "<b>Customers Feedback</b>",
-          "caption3": "<br>You will easily receive customers feedback, thanks &amp; suggestions..<br><br>You can reply quick to any questions and inquiries",
+          "subtitle3": "<b>Customers </b><br><b>Feedback</b>",
+          "caption3": "You will easily receive customers feedback, thanks &amp; suggestions..<br><br>You can reply quick to any questions and inquiries",
           "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
@@ -900,10 +900,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/colorm-logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-dd-loyalty-1-384x113.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1094,77 +1095,6 @@
         },
         {
           "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showTitles": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#323232",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-dd-loyalty-1-384x113.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "title1": "product",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "Awesome",
-          "text15": "Best",
-          "title2": "company",
-          "text21": "Press",
-          "text22": "Features",
-          "text23": "Mission",
-          "text24": "Strategy",
-          "text25": "Works",
-          "title3": "Learn more",
-          "text31": "Support",
-          "text32": "Developers",
-          "text33": "Service",
-          "text34": "Starter pack",
-          "text35": "FAQ",
-          "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
-          "titled3": "Copyright Notifications",
-          "followtext": "follow us",
-          "text": "Copyright (c) 2016 <a href=\"https://mobirise.com\">Mobirise</a>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer3",
-          "_anchor": "footer3-1f"
-        },
-        {
-          "_styles": {
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
             },
@@ -1290,6 +1220,69 @@
           ],
           "_name": "map1",
           "_anchor": "map1-1l"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-dd-loyalty-1-384x113.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Subscribe and get the latest news",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-25"
         }
       ]
     },
@@ -1510,77 +1503,6 @@
           "_anchor": "menu-y"
         },
         {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showTitles": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#323232",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-dd-loyalty-1-384x113.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "title1": "product",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "Awesome",
-          "text15": "Best",
-          "title2": "company",
-          "text21": "Press",
-          "text22": "Features",
-          "text23": "Mission",
-          "text24": "Strategy",
-          "text25": "Works",
-          "title3": "Learn more",
-          "text31": "Support",
-          "text32": "Developers",
-          "text33": "Service",
-          "text34": "Starter pack",
-          "text35": "FAQ",
-          "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
-          "titled3": "Copyright Notifications",
-          "followtext": "follow us",
-          "text": "Copyright (c) 2016 <a href=\"https://mobirise.com\">Mobirise</a>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer3",
-          "_anchor": "footer3-14"
-        },
-        {
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
@@ -1671,6 +1593,69 @@
           ],
           "_name": "form1",
           "_anchor": "form1-17"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-dd-loyalty-1-384x113.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Subscribe and get the latest news",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-25"
         }
       ]
     },
@@ -1979,19 +1964,10 @@
           "_anchor": "call6-24"
         },
         {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
+          "_styles": {},
           "_params": {
             "logo": true,
             "showTitles": true,
-            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -2018,36 +1994,37 @@
               "size": 0
             }
           },
-          "title1": "product",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "Awesome",
-          "text15": "Best",
-          "title2": "company",
-          "text21": "Press",
-          "text22": "Features",
-          "text23": "Mission",
-          "text24": "Strategy",
-          "text25": "Works",
-          "title3": "Learn more",
-          "text31": "Support",
-          "text32": "Developers",
-          "text33": "Service",
-          "text34": "Starter pack",
-          "text35": "FAQ",
-          "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
-          "titled3": "Copyright Notifications",
-          "followtext": "follow us",
-          "text": "Copyright (c) 2016 <a href=\"https://mobirise.com\">Mobirise</a>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "title1": "Subscribe and get the latest news",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer3",
-          "_anchor": "footer3-t"
+          "_name": "footer4",
+          "_anchor": "footer4-25"
         }
       ]
     },
@@ -2267,19 +2244,10 @@
           "_anchor": "call6-29"
         },
         {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
+          "_styles": {},
           "_params": {
             "logo": true,
             "showTitles": true,
-            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -2306,36 +2274,37 @@
               "size": 0
             }
           },
-          "title1": "product",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "Awesome",
-          "text15": "Best",
-          "title2": "company",
-          "text21": "Press",
-          "text22": "Features",
-          "text23": "Mission",
-          "text24": "Strategy",
-          "text25": "Works",
-          "title3": "Learn more",
-          "text31": "Support",
-          "text32": "Developers",
-          "text33": "Service",
-          "text34": "Starter pack",
-          "text35": "FAQ",
-          "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
-          "titled3": "Copyright Notifications",
-          "followtext": "follow us",
-          "text": "Copyright (c) 2016 <a href=\"https://mobirise.com\">Mobirise</a>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "title1": "Subscribe and get the latest news",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer3",
-          "_anchor": "footer3-2a"
+          "_name": "footer4",
+          "_anchor": "footer4-25"
         }
       ]
     },
@@ -2621,19 +2590,10 @@
           "_anchor": "header9-2t"
         },
         {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
+          "_styles": {},
           "_params": {
             "logo": true,
             "showTitles": true,
-            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -2660,36 +2620,37 @@
               "size": 0
             }
           },
-          "title1": "product",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "Awesome",
-          "text15": "Best",
-          "title2": "company",
-          "text21": "Press",
-          "text22": "Features",
-          "text23": "Mission",
-          "text24": "Strategy",
-          "text25": "Works",
-          "title3": "Learn more",
-          "text31": "Support",
-          "text32": "Developers",
-          "text33": "Service",
-          "text34": "Starter pack",
-          "text35": "FAQ",
-          "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
-          "titled3": "Copyright Notifications",
-          "followtext": "follow us",
-          "text": "Copyright (c) 2016 <a href=\"https://mobirise.com\">Mobirise</a>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "title1": "Subscribe and get the latest news",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer3",
-          "_anchor": "footer3-2f"
+          "_name": "footer4",
+          "_anchor": "footer4-25"
         }
       ]
     }
