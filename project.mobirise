@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Site-10-25_1524",
-    "currentPage": "index.html",
+    "name": "DDL 4",
+    "currentPage": "Videos.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -30,9 +30,14 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 103,
+    "uniqCompNum": 110,
     "versionPublish": "4.5.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -45,6 +50,53 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            },
+            "H1": {
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-size": "48px",
+              "color": "#f1c40f"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgText": "",
+            "bgTextStyle": "Lato",
+            "bgTextColor": "#d48c19",
+            "bgTextSize": "50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "Mobile App For Loyalty Program",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "animated-bg1",
+          "_anchor": "animated-bg1-1"
+        },
         {
           "_styles": {
             ".lead": {
@@ -60,7 +112,15 @@
               "color": "#ffffff"
             },
             ".mbr-section-text": {
-              "color": "#f39c12"
+              "color": "#f39c12",
+              "text-align": "left"
+            },
+            ".mbr-section-text B": {
+              "font-size": "18px",
+              "color": "#f1c40f"
+            },
+            "SPAN": {
+              "font-size": "22px"
             }
           },
           "_params": {
@@ -70,9 +130,9 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": true,
-            "imageSize": "62",
-            "paddingTop": "3",
-            "paddingBottom": "1",
+            "imageSize": "55",
+            "paddingTop": "1",
+            "paddingBottom": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
             "parallax": true,
@@ -104,7 +164,7 @@
           },
           "title1": "Low Cost Solution for Companies Searching To Implement Loyalty Program",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Download Business APP from &nbsp;:",
+          "caption1": "<b>Download Business APP from &nbsp;:</b>",
           "number1": "1",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
@@ -121,13 +181,66 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://itunes.apple.com/sa/app/dd-loyalty-for-business/id1117956788?mt=8\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.microsoft.com/en-us/store/p/dd-loyalty-business-application/9nfx1mwn12ln\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-windows mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"https://itunes.apple.com/sa/app/dd-loyalty-for-business/id1117956788?mt=8\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a>  <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"https://www.microsoft.com/en-us/store/p/dd-loyalty-business-application/9nfx1mwn12ln\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-windows mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "features5",
           "_anchor": "features5-3"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#666666"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "number1": "DD",
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "65",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ddl-img-402x575.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "How DD-Loyality App Benefits Your Business",
+          "subtitle1": "What DD-Loyalty App for Business actually does for you ..",
+          "caption1": "- Makes it easy to reach your current customers<br> - It’s easier for you to target new customers.<br> - Easy accept any customer’s request to join your customer loyalty program.<br> - With just one click, you can grant customers digital loyalty membership cards.<br> - With just one click, you can upgrade existing customers membership.<br> - Regularly updated your customers about new products &amp; services, offers, &amp; promotions.<br> - Boosts customer satisfaction by reward them for their loyalty<br>",
+          "number1": "01",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://itunes.apple.com/sa/app/dd-loyalty-for-business/id1117956788?mt=8\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.microsoft.com/en-us/store/p/dd-loyalty-business-application/9nfx1mwn12ln\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-windows mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features14",
+          "_anchor": "features14-5"
         },
         {
           "_styles": {
@@ -223,58 +336,13 @@
         },
         {
           "_styles": {
-            ".display-1": {
-              "font-weight": "700",
-              "text-transform": "uppercase",
-              "margin-top": "40px"
-            },
-            "H1": {
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
-            }
-          },
-          "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgText": "Mobile App For Loyalty Program",
-            "bgTextStyle": "Lato",
-            "bgTextColor": "#d48c19",
-            "bgTextSize": "100",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
-          },
-          "title": "App Loyalty Program",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "animated-bg1",
-          "_anchor": "animated-bg1-1"
-        },
-        {
-          "_styles": {
             ".mbr-section-title": {
               "font-weight": "700"
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase",
               "letter-spacing": "2px",
-              "color": "#fff"
+              "color": "#d48c19"
             },
             ".mbr-section-text": {
               "text-align": "left"
@@ -286,8 +354,8 @@
             "showTitles": true,
             "ShowTexts": true,
             "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": "0",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "columns": 4,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
@@ -414,19 +482,19 @@
           },
           "title": "Features",
           "title1": "Bootstrap 4",
-          "subtitle1": "<div><span style=\"font-size: 1rem; background-color: transparent;\">Loyalty Solution&nbsp;</span><br></div><div>End To End</div>",
+          "subtitle1": "<div><b><span style=\"font-size: 1rem; background-color: transparent;\">Loyalty Solution&nbsp;</span><br></b></div><div>End To End</div>",
           "caption1": "Digital and Tangibl loyalty card trigger to keep brands in mind<br>– Fully virtual with auto AI<br>– Fair &amp; Flexible rewarding system<br>– Linkable to current POS",
           "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title2": "Responsive",
-          "subtitle2": "Membership Business Solution",
+          "subtitle2": "<b>Membership Business Solution</b>",
           "caption2": "Leverage the reach of smart phones (end_to_end) : <br>– Fully Virtual<br>– Membership validity control<br>– Linkable to current POS",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title3": "Web Fonts",
-          "subtitle3": "Keep your BRAND, Store &amp; Products",
+          "subtitle3": "<b>Keep your BRAND, Store &amp; Products</b>",
           "caption3": "– Send directed special offers<br>– Speedy brand awareness to gain new clients<br>– Geo Targeting new clients with direct offers",
           "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title4": "Unlimited Sites",
-          "subtitle4": "Engage with your customers throug",
+          "subtitle4": "<b>Engage with your customers throug</b>",
           "caption4": "DD-Loyality offers Life Engaging with your client<br>– Polls &amp; feedback<br>– Real-time inquiries &amp; questions",
           "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title5": "Trendy Website Blocks",
@@ -445,133 +513,6 @@
           "_anchor": "features1-4"
         },
         {
-          "_styles": {
-            ".mbr-section-text": {
-              "color": "#666666"
-            }
-          },
-          "_params": {
-            "showImages": true,
-            "showNumber": true,
-            "number1": "DD",
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": true,
-            "imageSize": "65",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.9
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/ddl-img-402x575.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "title1": "How DD-Loyality App Benefits Your Business",
-          "subtitle1": "What DD-Loyalty App for Business actually does for you ..",
-          "caption1": "- Makes it easy to reach your current customers<br> - It’s easier for you to target new customers.<br> - Easy accept any customer’s request to join your customer loyalty program.<br> - With just one click, you can grant customers digital loyalty membership cards.<br> - With just one click, you can upgrade existing customers membership.<br> - Regularly updated your customers about new products &amp; services, offers, &amp; promotions.<br> - Boosts customer satisfaction by reward them for their loyalty<br>",
-          "number1": "01",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://itunes.apple.com/sa/app/dd-loyalty-for-business/id1117956788?mt=8\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.microsoft.com/en-us/store/p/dd-loyalty-business-application/9nfx1mwn12ln\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-windows mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features14",
-          "_anchor": "features14-5"
-        },
-        {
-          "_styles": {
-            ".mbr-section-text": {
-              "text-align": "left",
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            }
-          },
-          "_params": {
-            "showImages": true,
-            "showNumber": true,
-            "number1": "02",
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false,
-            "imageSize": "43",
-            "paddingTop": 2,
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/fl2.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f39c12",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.9
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/29513195-1975421322722897-4337559026169195150-n-400x400.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "title1": "<b>How DD-Loyality App Benefits Your Clients</b>",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "<b>1- </b>&nbsp;It’s available on both Android and IOS.<br><b>2- </b>&nbsp;It makes it easy for you to access VIP exclusive offers.<br><b>3-</b>&nbsp;You’ll have you preferred brand’s loyalty membership card in your smartphone, not in your wallet.<br><b>4-</b> It facilitates the process of rewarding you for your loyalty with points and exclusive discounts. So, with it, you feel it pays dividends to be loyal to your preferred brand.<br><b>5- &nbsp;</b>It’s so easy for you to find and select your preferred company, shop or brand, and find all data about it. You just browse through businesses, shops and brands, select the preferred company, and request membership of the selected company’s loyalty program. Then the company receives your request and provides you with the digital loyalty card, which pushes you into a world of benefits.<br>",
-          "number1": "01",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features13",
-          "_anchor": "features13-1r"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700"
-            },
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "letter-spacing": "2px",
-              "color": "#000000",
-              "text-align": "left"
-            },
-            ".mbr-section-text": {
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle B": {
-              "color": "#f1c40f"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showImages": true,
@@ -663,7 +604,7 @@
               "family": "et-line"
             }
           },
-          "title": "Make life Easy",
+          "title": "Make life Easy<br>More Features",
           "title1": "Bootstrap 4",
           "subtitle1": "<b>Digitalize your Loyalty Process</b>",
           "caption1": "Digital loyalty membership cards<br>Upgrade existing membership&nbsp;<br>Regularly Customers Updated <br>(new products, services, offers, events, promotions )",
@@ -693,7 +634,69 @@
             "Theme"
           ],
           "_name": "features2",
-          "_anchor": "features2-9"
+          "_anchor": "features2-9",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #000000;\n  text-align: left;\n}\n.mbr-section-text {\n  text-align: left;\n}\n.mbr-section-subtitle B {\n  color: #f1c40f;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"56\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(51, 51, 51);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"24\">Make life Easy</h1>\n                    <h1 class=\"mbr-section-subtitle display-1 mbr-editable-content\" style=\"font-size: 32px; text-align: center; color: rgb(212, 140, 25);\" code-editable-id=\"25\"><strong>Even More Features</strong></h1> \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"icon54-v2-binar-code mbr-iconfont mbr-iconfont-features4\" style=\"font-size: 120px; color: rgb(236, 240, 241);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" style=\"font-size: 24px; text-align: center; color: rgb(212, 140, 25);\" code-editable-id=\"26\"><strong>Digitalize your Loyalty Process</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"text-align: left;\" code-editable-id=\"27\"><strong>- Digital loyalty membership cards<br>- Upgrade existing membership&nbsp;<br>- Regularly Customers Updated about your new products, services, offers, events, promotions</strong></p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"fa fa-credit-card-alt mbr-iconfont mbr-iconfont-features4\" style=\"font-size: 105px; color: rgb(236, 240, 241);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" style=\"font-size: 24px; text-align: center; color: rgb(212, 140, 25);\" code-editable-id=\"28\"><strong>Various Membership Packages</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"29\"><strong>Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.</strong><br></p>\n\n\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"mbrib-cust-feedback mbr-iconfont mbr-iconfont-features4\" style=\"font-size: 130px; color: rgb(236, 240, 241);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" style=\"font-size: 24px; text-align: center; color: rgb(212, 140, 25);\" code-editable-id=\"30\"><strong>Customers </strong><br><strong>Feedback</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"31\"><strong>- You will easily receive customers feedback, thanks &amp; suggestions..<br></strong><br><strong>- You can reply quick to any questions and inquiries</strong></p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "number1": "02",
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "imageSize": "43",
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/fl2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f39c12",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/29513195-1975421322722897-4337559026169195150-n-400x400.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "<b>How DD-Loyality App Benefits Your Clients</b>",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<b>1- </b>&nbsp;It’s available on both Android and IOS.<br><b>2- &nbsp;It makes it easy for you to access VIP exclusive offers.<br>3-</b>&nbsp;You’ll have you preferred brand’s loyalty membership card in your smartphone, not in your wallet.<br><b>4- It facilitates the process of rewarding you for your loyalty with points and exclusive discounts. So, with it, you feel it pays dividends to be loyal to your preferred brand.</b><br>5- &nbsp;It’s so easy for you to find and select your preferred company, shop or brand, and find all data about it. You just browse through businesses, shops and brands, select the preferred company, and request membership of the selected company’s loyalty program. Then the company receives your request and provides you with the digital loyalty card, which pushes you into a world of benefits.<br>",
+          "number1": "01",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features13",
+          "_anchor": "features13-1r"
         },
         {
           "_styles": {
@@ -1024,24 +1027,30 @@
             },
             "H1": {
               "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "color": "#f1c40f",
+              "font-size": "72px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "center"
             }
           },
           "_params": {
-            "showTitle": false,
+            "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "paddingTop": "4",
+            "paddingTop": "2",
             "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/02-1920x1280.png",
             "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgText": "Get in Touch",
+            "bgColorRadio": false,
+            "bgColor": "#333333",
+            "bgText": "",
             "bgTextStyle": "Lato",
             "bgTextColor": "#f39c12",
-            "bgTextSize": "150",
+            "bgTextSize": "100",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1050,8 +1059,8 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.1
           },
-          "title": "App Loyalty Program",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "title": "Get in Touch",
+          "text": "Our client’s opinion is what makes us move towards a better future. Tell us what’s going on in your mind. We respond to all customer feedback and look forward to hearing from <i>you</i> well!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
           "alias": "colorm/components",
           "_tags": [
@@ -1063,7 +1072,11 @@
         {
           "_styles": {
             ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "color": "#ecf0f1",
+              "font-size": "16px",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
             },
             ".form-control-label": {},
             ".mbr-section-title": {
@@ -1076,14 +1089,17 @@
               "font-size": "19px",
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#ecf0f1"
             }
           },
           "_params": {
-            "showSubtitle": false,
+            "showSubtitle": true,
             "showTitle": false,
-            "showText": true,
+            "showText": false,
             "paddingTop": "1",
-            "paddingBottom": 3,
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/08.jpg",
             "parallax": true,
@@ -1097,7 +1113,7 @@
           "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
           "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
           "title": "Get in Touch",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "subtitle": "Our client’s opinion is what makes us move towards a better future. Tell us what’s going on in your mind. We respond to all customer feedback and look forward to hearing from you well!",
           "text": "<b>Our client’s opinion is what makes us move towards a better future. Tell us what’s going on in your mind.&nbsp;We respond to all customer feedback and look forward to hearing from you well!</b><br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
@@ -1157,7 +1173,7 @@
             "overlayOpacity": "0.7"
           },
           "title": "Instagram Feed",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-warning\" href=\"#\" data-max-id=\"1999486302822667236_3443846877\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
           "alias": "instagram-feed",
@@ -1172,6 +1188,68 @@
               "color": "#f39c12"
             }
           }
+        },
+        {
+          "_styles": {
+            ".title": {
+              "color": "#000000",
+              "font-size": "36px"
+            },
+            ".call-card.active .title": {
+              "color": "#2f2f2f"
+            },
+            ".call-card.active .mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#f39c12",
+              "font-size": "20px"
+            },
+            ".call-card.active .mbr-section-subtitle B": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showHeader": true,
+            "showHeaderText": false,
+            "showSubtitles": true,
+            "showTitles": true,
+            "showText": false,
+            "showButtons": true,
+            "activeColor": "#f39c12",
+            "themeColor": "@primaryColor",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/09.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "header": "Download APPs",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fuga ut reprehenderit eum, blanditiis ab obcaecati eaque dicta enim architecto.",
+          "subtitle1": "<b>Company app</b>",
+          "subtitle2": "<b>Client app</b>",
+          "title1": "Manage you loyal customers",
+          "title2": "For Loyal Clients Members",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-apple mbr-iconfont mbr-iconfont-btn\"></span>App Store</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-windows mbr-iconfont mbr-iconfont-btn\"></span>Desktop Pc Store</a>",
+          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-apple mbr-iconfont mbr-iconfont-btn\"></span>APP STORE</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v1-google-play mbr-iconfont mbr-iconfont-btn\"></span>Google play</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call6",
+          "_anchor": "call6-31"
         },
         {
           "_params": {
@@ -1543,6 +1621,68 @@
         },
         {
           "_styles": {
+            ".title": {
+              "color": "#000000",
+              "font-size": "36px"
+            },
+            ".call-card.active .title": {
+              "color": "#2f2f2f"
+            },
+            ".call-card.active .mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#f39c12",
+              "font-size": "20px"
+            },
+            ".call-card.active .mbr-section-subtitle B": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showHeader": true,
+            "showHeaderText": false,
+            "showSubtitles": true,
+            "showTitles": true,
+            "showText": false,
+            "showButtons": true,
+            "activeColor": "#f39c12",
+            "themeColor": "@primaryColor",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/09.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "header": "Download APPs",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fuga ut reprehenderit eum, blanditiis ab obcaecati eaque dicta enim architecto.",
+          "subtitle1": "<b>Company app</b>",
+          "subtitle2": "<b>Client app</b>",
+          "title1": "Manage you loyal customers",
+          "title2": "For Loyal Clients Members",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-apple mbr-iconfont mbr-iconfont-btn\"></span>App Store</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-windows mbr-iconfont mbr-iconfont-btn\"></span>Desktop Pc Store</a>",
+          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-apple mbr-iconfont mbr-iconfont-btn\"></span>APP STORE</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v1-google-play mbr-iconfont mbr-iconfont-btn\"></span>Google play</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call6",
+          "_anchor": "call6-30"
+        },
+        {
+          "_styles": {
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
             },
@@ -1720,7 +1860,7 @@
             "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#000000",
+            "bgColor": "#2c3e50",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1764,7 +1904,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-windows mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"imind-google-play mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 22px;\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1908,11 +2048,11 @@
               "title": ""
             }
           },
-          "title1": "How DD-Loyality App Benefits Your Clients",
+          "title1": "How DD-Loyality App Benefits You",
           "subtitle1": "<b>- App is available on both Android and IOS.</b>",
-          "caption1": "<b>- </b>Easy for you to access VIP exclusive offers.<br><b>- </b>You’ll have you preferred brand’s loyalty membership card in your smartphone, not in your wallet.<br><b> - </b>It facilitates the process of rewarding you for your loyalty with points and exclusive discounts. So, with it, you feel it pays dividends to be loyal to your preferred brand.<br><br><b>- </b>It’s so easy for you to find and select your preferred company, shop or brand, and find all data about it. You just browse through businesses, shops and brands, select the preferred company, and request membership of the selected company’s loyalty program. Then the company receives your request and provides you with the digital loyalty card, which pushes you into a world of benefits.<br>",
+          "caption1": "<b>- </b>Easy for you to access VIP exclusive offers.<br><b>- </b>You’ll have you preferred brand’s loyalty membership card in your smartphone, not in your wallet.<br><b> - </b>It facilitates the process of rewarding you for your loyalty with points and exclusive discounts. So, with it, you feel it pays dividends to be loyal to your preferred brand.<br><br><b>- </b>It’s so easy for you to find and select your preferred company, shop or brand, and find all data about it. You just browse through businesses, shops and brands, select the preferred company, and request membership of the selected company’s loyalty program. Then the company receives your request and provides you with the digital loyalty card, which pushes you into a world of benefits.&nbsp;<br>",
           "number1": "01",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-windows mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v1-google-play mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1964,14 +2104,14 @@
           },
           "header": "Download APPs",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fuga ut reprehenderit eum, blanditiis ab obcaecati eaque dicta enim architecto.",
-          "subtitle1": "<b>Company app</b>",
+          "subtitle1": "<font color=\"#f39c12\"><b>CLIENT APP</b></font>",
           "subtitle2": "<b>Client app</b>",
-          "title1": "Manage you loyal customers",
-          "title2": "For Loyal Clients Members",
+          "title1": "on",
+          "title2": "on",
           "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
           "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
-          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-apple mbr-iconfont mbr-iconfont-btn\"></span>App Store</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-windows mbr-iconfont mbr-iconfont-btn\"></span>Desktop Pc Store</a>",
-          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-apple mbr-iconfont mbr-iconfont-btn\"></span>APP STORE</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v1-google-play mbr-iconfont mbr-iconfont-btn\"></span>Google play</a>",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"imind-google-play mbr-iconfont mbr-iconfont-btn\"></span>GOOGLE PLAY</a> ",
+          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-apple mbr-iconfont mbr-iconfont-btn\"></span>APP STORE</a> ",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -2054,60 +2194,6 @@
         "order": 2
       },
       "components": [
-        {
-          "_params": {
-            "showText": true,
-            "paddingTop": "6",
-            "paddingBottom": "4",
-            "bgColor": "#000000"
-          },
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-embedded-video",
-              "src": "https://youtu.be/MNyyluX-DSc",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "text": "DD-Loyalty APP for Companies",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video2",
-          "_anchor": "video2-2n"
-        },
-        {
-          "_params": {
-            "showText": true,
-            "paddingTop": "6",
-            "paddingBottom": "4",
-            "bgColor": "#f39c12"
-          },
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-embedded-video",
-              "src": "https://www.youtube.com/watch?v=FEvDyPFXZns",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "text": "Loyal Customers App Features",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video2",
-          "_anchor": "video2-2o"
-        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -2201,9 +2287,142 @@
           "_anchor": "menu-27"
         },
         {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": 4,
+            "paddingBottom": "2",
+            "filterBgColor": false,
+            "bgColor": "#f1c40f",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-2-34-51-33996.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery00.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery00.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/MNyyluX-DSc",
+                "caption": "DD-Loyalty APP for Companies",
+                "active": false
+              },
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-2-34-4-957561.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=FEvDyPFXZns",
+                "image": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Loyal Customers App Features",
+                "active": false
+              },
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-2-52-18-67560.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=gd2DvuGSHus",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Steps To Create Company Profile<br>",
+                "active": false
+              },
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-2-52-41-901527.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=c2otIhyRZwU",
+                "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "DD-Loyalty App - Loyalty Program<br>",
+                "active": false
+              },
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-3-3-18-71910.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/MNyyluX-DSc",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here2",
+                "active": true
+              },
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-3-4-0-968133.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/MNyyluX-DSc",
+                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here2",
+                "active": false
+              },
+              {
+                "tags": "FOR CLIENTS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-3-4-6-336784.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/MNyyluX-DSc",
+                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "FOR COMPANIES",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2019-4-1-3-4-13-714411.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/MNyyluX-DSc",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here2",
+                "active": false
+              }
+            ]
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "ALL",
+          "_name": "gallery3",
+          "_anchor": "gallery3-2y",
+          "_styles": {
+            ".mbr-gallery-title": {
+              "font-size": "16px"
+            },
+            "LI": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#000000"
+            }
+          }
+        },
+        {
           "_styles": {
             ".title": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-size": "36px"
             },
             ".call-card.active .title": {
               "color": "#2f2f2f"
@@ -2212,10 +2431,12 @@
               "color": "#ffffff"
             },
             ".mbr-section-subtitle B": {
-              "color": "#f39c12"
+              "color": "#f39c12",
+              "font-size": "20px"
             },
             ".call-card.active .mbr-section-subtitle B": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -2242,7 +2463,7 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.7
           },
-          "header": "Download APPs",
+          "header": "Download APPs&nbsp;",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fuga ut reprehenderit eum, blanditiis ab obcaecati eaque dicta enim architecto.",
           "subtitle1": "<b>Company app</b>",
           "subtitle2": "<b>Client app</b>",
@@ -2667,6 +2888,68 @@
           ],
           "_name": "footer4",
           "_anchor": "footer4-25"
+        },
+        {
+          "_styles": {
+            ".title": {
+              "color": "#000000",
+              "font-size": "36px"
+            },
+            ".call-card.active .title": {
+              "color": "#2f2f2f"
+            },
+            ".call-card.active .mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#f39c12",
+              "font-size": "20px"
+            },
+            ".call-card.active .mbr-section-subtitle B": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showHeader": true,
+            "showHeaderText": false,
+            "showSubtitles": true,
+            "showTitles": true,
+            "showText": false,
+            "showButtons": true,
+            "activeColor": "#f39c12",
+            "themeColor": "@primaryColor",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/09.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "header": "Download APPs",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fuga ut reprehenderit eum, blanditiis ab obcaecati eaque dicta enim architecto.",
+          "subtitle1": "<b>Company app</b>",
+          "subtitle2": "<b>Client app</b>",
+          "title1": "Manage you loyal customers",
+          "title2": "For Loyal Clients Members",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-apple mbr-iconfont mbr-iconfont-btn\"></span>App Store</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-windows mbr-iconfont mbr-iconfont-btn\"></span>Desktop Pc Store</a>",
+          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-apple mbr-iconfont mbr-iconfont-btn\"></span>APP STORE</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v1-google-play mbr-iconfont mbr-iconfont-btn\"></span>Google play</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call6",
+          "_anchor": "call6-2z"
         }
       ]
     }

@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 
 
@@ -721,6 +722,16 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
 }
 /*end colorM*/
+#animated-bg1-1 .display-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+#animated-bg1-1 H1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 48px;
+  color: #f1c40f;
+}
 #features5-3 .lead {
   color: #9fa3a7;
 }
@@ -735,6 +746,17 @@ blockquote {
 }
 #features5-3 .mbr-section-text {
   color: #f39c12;
+  text-align: left;
+}
+#features5-3 .mbr-section-text B {
+  font-size: 18px;
+  color: #f1c40f;
+}
+#features5-3 SPAN {
+  font-size: 22px;
+}
+#features14-5 .mbr-section-text {
+  color: #666666;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -803,33 +825,15 @@ blockquote {
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#animated-bg1-1 .display-1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 40px;
-}
-#animated-bg1-1 H1 {
-  font-family: 'Source Sans Pro', sans-serif;
-}
 #features1-4 .mbr-section-title {
   font-weight: 700;
 }
 #features1-4 .mbr-section-subtitle {
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #fff;
+  color: #d48c19;
 }
 #features1-4 .mbr-section-text {
-  text-align: left;
-}
-#features14-5 .mbr-section-text {
-  color: #666666;
-}
-#features13-1r .mbr-section-text {
-  text-align: left;
-  color: #ffffff;
-}
-#features13-1r .mbr-section-title {
   text-align: left;
 }
 #features2-9 .mbr-section-title {
@@ -846,6 +850,13 @@ blockquote {
 }
 #features2-9 .mbr-section-subtitle B {
   color: #f1c40f;
+}
+#features13-1r .mbr-section-text {
+  text-align: left;
+  color: #ffffff;
+}
+#features13-1r .mbr-section-title {
+  text-align: left;
 }
 #call6-c .title {
   color: #000000;
@@ -874,6 +885,7 @@ blockquote {
 #form1-l .mbr-section-text {
   color: #ffffff;
 }
+
 
 
 #menu-19 .hide-buttons .nav-btn {
@@ -950,9 +962,21 @@ blockquote {
 }
 #animated-bg1-1a H1 {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #f1c40f;
+  font-size: 72px;
+  text-align: left;
+}
+#animated-bg1-1a P {
+  text-align: center;
 }
 #form1-1i .mbr-section-subtitle {
   text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+}
+#form1-1i .form-control-label {
+  color: undefined;
 }
 #form1-1i .mbr-section-title {
   color: #ecf0f1;
@@ -964,9 +988,30 @@ blockquote {
   font-size: 19px;
   font-family: 'Lato', sans-serif;
 }
+#form1-1i .mbr-section-subtitle B {
+  color: #ecf0f1;
+}
 #instagram-feed-block-1k .inst__title {
   text-align: center;
   color: #f39c12;
+}
+#call6-31 .title {
+  color: #000000;
+  font-size: 36px;
+}
+#call6-31 .call-card.active .title {
+  color: #2f2f2f;
+}
+#call6-31 .call-card.active .mbr-section-subtitle {
+  color: #ffffff;
+}
+#call6-31 .mbr-section-subtitle B {
+  color: #f39c12;
+  font-size: 20px;
+}
+#call6-31 .call-card.active .mbr-section-subtitle B {
+  color: #ffffff;
+  font-size: 20px;
 }
 
 #counters2-23 DIV {
@@ -1068,8 +1113,29 @@ blockquote {
 #accordion1-2u H1 {
   color: #ffffff;
 }
+#call6-30 .title {
+  color: #000000;
+  font-size: 36px;
+}
+#call6-30 .call-card.active .title {
+  color: #2f2f2f;
+}
+#call6-30 .call-card.active .mbr-section-subtitle {
+  color: #ffffff;
+}
+#call6-30 .mbr-section-subtitle B {
+  color: #f39c12;
+  font-size: 20px;
+}
+#call6-30 .call-card.active .mbr-section-subtitle B {
+  color: #ffffff;
+  font-size: 20px;
+}
 #form1-17 .mbr-section-subtitle {
   text-transform: uppercase;
+}
+#form1-17 .form-control-label {
+  color: undefined;
 }
 #form1-17 .mbr-section-title {
   color: #f39c12;
@@ -1183,6 +1249,7 @@ blockquote {
 #call6-24 .call-card.active .mbr-section-subtitle B {
   color: #ffffff;
 }
+
 #menu-27 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1250,8 +1317,16 @@ blockquote {
 #menu-27 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
+#gallery3-2y .mbr-gallery-title {
+  font-size: 16px;
+}
+#gallery3-2y LI {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
 #call6-29 .title {
   color: #000000;
+  font-size: 36px;
 }
 #call6-29 .call-card.active .title {
   color: #2f2f2f;
@@ -1261,9 +1336,11 @@ blockquote {
 }
 #call6-29 .mbr-section-subtitle B {
   color: #f39c12;
+  font-size: 20px;
 }
 #call6-29 .call-card.active .mbr-section-subtitle B {
   color: #ffffff;
+  font-size: 20px;
 }
 #menu-2c .hide-buttons .nav-btn {
   display: none !important;
@@ -1349,4 +1426,22 @@ blockquote {
 }
 #header9-2t .mbr-section-title {
   font-size: 84px;
+}
+#call6-2z .title {
+  color: #000000;
+  font-size: 36px;
+}
+#call6-2z .call-card.active .title {
+  color: #2f2f2f;
+}
+#call6-2z .call-card.active .mbr-section-subtitle {
+  color: #ffffff;
+}
+#call6-2z .mbr-section-subtitle B {
+  color: #f39c12;
+  font-size: 20px;
+}
+#call6-2z .call-card.active .mbr-section-subtitle B {
+  color: #ffffff;
+  font-size: 20px;
 }
